@@ -1,5 +1,3 @@
-package ASG5;
-
 import java.util.Stack;
 
 public class Assignment5 {

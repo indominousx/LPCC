@@ -1,5 +1,3 @@
-package ASG3;
-
 import java.util.*;
 
 public class LexicalAnalyzerSimple {

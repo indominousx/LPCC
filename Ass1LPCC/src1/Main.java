@@ -1,8 +1,7 @@
-package ASG1;
 import java.io.*;
 import java.util.*;
 
-class TwoPassAssembler {
+class Main {
 
     static ArrayList<String> sym = new ArrayList<>();
     static ArrayList<Integer> symAddr = new ArrayList<>();
@@ -39,7 +38,7 @@ class TwoPassAssembler {
 
     public static void main(String[] args) throws Exception {
 
-        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("src1/input.txt"));
         String line;
 
         pool.add(0);

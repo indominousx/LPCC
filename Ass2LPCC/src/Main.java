@@ -1,16 +1,14 @@
-package ASG2;
-
 import java.io.*;
 import java.util.*;
 
-public class MacroProcessor {
+public class Main {
 
     static Map<String, List<String>> macros = new HashMap<>();
     static Map<String, List<String>> parameters = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
 
-        BufferedReader br = new BufferedReader(new FileReader("ASG2/input.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("src/input.txt"));
 
         String line;
         boolean isMacro = false;
@@ -63,7 +61,7 @@ public class MacroProcessor {
         br.close();
     }
 
-    // EXPANSION FUNCTION 
+    // EXPANSION FUNCTION
     static void expand(String line) {
 
         line = line.trim();

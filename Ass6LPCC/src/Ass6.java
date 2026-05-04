@@ -1,4 +1,3 @@
-package ASG6;
 import java.util.*;
 
 public class Ass6 {

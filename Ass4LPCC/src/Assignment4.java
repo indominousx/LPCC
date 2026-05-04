@@ -1,5 +1,3 @@
-package ASG4;
-
 import java.util.*;
 
 public class Assignment4 {
